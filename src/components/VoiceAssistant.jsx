@@ -111,7 +111,7 @@ export default function VoiceAssistant({ userProfile }) {
 
     // Non-navigation: open chatbox and send as question
     setTimeout(() => {
-      const chatBtn = document.querySelector('[title="Ask LocalBiz AI"]');
+      const chatBtn = document.querySelector('[title="Ask Vyapar Mitra"]');
       if (chatBtn) {
         chatBtn.click();
         // Wait for chatbox to open, then set input value
@@ -149,7 +149,7 @@ export default function VoiceAssistant({ userProfile }) {
     <button
       onClick={startListening}
       className={`fixed bottom-6 right-24 w-12 h-12 rounded-full shadow-lg flex items-center justify-center transition-all duration-300 z-50 border border-gray-200 ${ui.bg} ${ui.text} ${ui.animate} hover:shadow-xl`}
-      title="Talk to LocalBiz AI"
+      title="Talk to Vyapar Mitra"
     >
       <span className="text-xl">{ui.emoji}</span>
     </button>

@@ -89,7 +89,7 @@ export default function BusinessIdeas() {
     setChatContext(ctx);
     // Open chatbox
     setTimeout(() => {
-      const chatBtn = document.querySelector('[title="Ask LocalBiz AI"]');
+      const chatBtn = document.querySelector('[title="Ask Vyapar Mitra"]');
       if (chatBtn) chatBtn.click();
     }, 100);
   };

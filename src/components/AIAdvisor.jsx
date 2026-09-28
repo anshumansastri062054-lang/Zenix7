@@ -73,7 +73,7 @@ export default function AIAdvisor({ analysis, payload, onAskQuestion }) {
               <span className="text-xl">🤖</span>
             </div>
             <div>
-              <h3 className="font-semibold">LocalBiz AI Advisor</h3>
+              <h3 className="font-semibold">Vyapar Mitra Advisor</h3>
               <div className="flex items-center gap-2 mt-1">
                 <span className={`text-xs px-2 py-0.5 rounded-full ${AI_MODE === 'demo' ? 'bg-yellow-400 text-yellow-900' : 'bg-green-400 text-green-900'}`}>
                   {AI_MODE === 'demo' ? 'DEMO AI RESPONSE' : 'AI GENERATED'}
@@ -208,7 +208,7 @@ export default function AIAdvisor({ analysis, payload, onAskQuestion }) {
               type="text"
               value={question}
               onChange={(e) => setQuestion(e.target.value)}
-              placeholder="Ask LocalBiz AI..."
+              placeholder="Ask Vyapar Mitra..."
               className="w-full px-4 py-2 pr-10 border border-gray-200 rounded-lg text-sm focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent"
             />
             <button

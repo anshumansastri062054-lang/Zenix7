@@ -42,7 +42,7 @@ export default function AIChat({ context, initialMessage }) {
   // Initialize with welcome message
   useEffect(() => {
     if (isOpen && messages.length === 0) {
-      const welcomeMsg = initialMessage || "Hi! I'm LocalBiz AI. I can help you understand your business analysis, market conditions, financial estimates and potential government schemes.";
+      const welcomeMsg = initialMessage || "Hi! I'm Vyapar Mitra. I can help you understand your business analysis, market conditions, financial estimates and potential government schemes.";
       setMessages([{
         role: "assistant",
         content: welcomeMsg,
@@ -252,7 +252,7 @@ export default function AIChat({ context, initialMessage }) {
             ? 'bg-red-500 hover:bg-red-600'
             : 'bg-gradient-to-r from-blue-600 to-indigo-600 hover:from-blue-700 hover:to-indigo-700'
         }`}
-        title="Ask LocalBiz AI"
+        title="Ask Vyapar Mitra"
       >
         {isOpen ? (
           <svg className="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -274,7 +274,7 @@ export default function AIChat({ context, initialMessage }) {
                   <span className="text-xl">🤖</span>
                 </div>
                 <div>
-                  <h3 className="font-semibold">LocalBiz AI Advisor</h3>
+                  <h3 className="font-semibold">Vyapar Mitra Advisor</h3>
                   <p className="text-xs text-blue-100">Ask me about your business analysis.</p>
                 </div>
               </div>
@@ -354,7 +354,7 @@ export default function AIChat({ context, initialMessage }) {
                     <div className="w-2 h-2 bg-gray-400 rounded-full animate-bounce" style={{ animationDelay: '0.1s' }} />
                     <div className="w-2 h-2 bg-gray-400 rounded-full animate-bounce" style={{ animationDelay: '0.2s' }} />
                   </div>
-                  <p className="text-xs text-gray-500 mt-1">LocalBiz AI is thinking...</p>
+                  <p className="text-xs text-gray-500 mt-1">Vyapar Mitra is thinking...</p>
                 </div>
               </div>
             )}

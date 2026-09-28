@@ -26,7 +26,7 @@ export default function Settings() {
     const url = URL.createObjectURL(blob);
     const a = document.createElement('a');
     a.href = url;
-    a.download = `localbiz-ai-export-${new Date().toISOString().split('T')[0]}.json`;
+    a.download = `vyapar-mitra-export-${new Date().toISOString().split('T')[0]}.json`;
     a.click();
     URL.revokeObjectURL(url);
   };
@@ -126,7 +126,7 @@ export default function Settings() {
       <div className="bg-white rounded-xl p-6 shadow-sm border border-gray-100">
         <h3 className="font-semibold text-gray-800 mb-4">About</h3>
         <div className="space-y-2 text-sm text-gray-600">
-          <p><strong>LocalBiz AI</strong> - Hyperlocal Business Advisory Platform</p>
+          <p><strong>Vyapar Mitra</strong> - Hyperlocal Business Advisory Platform</p>
           <p>Version: 1.0.0 (Prototype)</p>
           <p>Built for Smart India Hackathon 2026</p>
           <p className="text-xs text-gray-400 mt-4">

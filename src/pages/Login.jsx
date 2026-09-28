@@ -66,7 +66,7 @@ export default function Login() {
           <div className="w-16 h-16 bg-gradient-to-br from-blue-600 to-indigo-600 rounded-2xl flex items-center justify-center mx-auto mb-4 shadow-lg">
             <span className="text-white font-bold text-xl">LB</span>
           </div>
-          <h1 className="text-2xl font-bold text-gray-800">LocalBiz AI</h1>
+          <h1 className="text-2xl font-bold text-gray-800">Vyapar Mitra</h1>
           <p className="text-gray-500 text-sm mt-1">Make smarter business decisions with your local market.</p>
         </div>
 

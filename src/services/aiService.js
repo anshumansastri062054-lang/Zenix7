@@ -14,7 +14,7 @@ const API_CONFIG = {
   apiKey: import.meta.env.VITE_AI_API_KEY || ""
 };
 
-const SYSTEM_PROMPT = `You are LocalBiz AI, an advisory assistant for entrepreneurs.
+const SYSTEM_PROMPT = `You are Vyapar Mitra, an advisory assistant for entrepreneurs.
 
 Analyze only the structured information provided to you.
 

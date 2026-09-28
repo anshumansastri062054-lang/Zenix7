@@ -8,9 +8,9 @@ export default function Navbar({ user, onLogout }) {
     <nav className="bg-white border-b border-gray-100 px-6 py-3 flex items-center justify-between sticky top-0 z-40">
       <div className="flex items-center gap-3">
         <div className="w-8 h-8 bg-gradient-to-br from-blue-600 to-indigo-600 rounded-lg flex items-center justify-center">
-          <span className="text-white font-bold text-sm">LB</span>
+          <span className="text-white font-bold text-sm">VM</span>
         </div>
-        <span className="font-bold text-gray-800 text-lg">LocalBiz AI</span>
+        <span className="font-bold text-gray-800 text-lg">Vyapar Mitra</span>
       </div>
 
       <div className="flex items-center gap-4">

@@ -203,11 +203,11 @@ export default function BusinessAnalysis() {
         <div className="flex items-center justify-between">
           <div>
             <h3 className="font-semibold text-gray-800">Have questions about this analysis?</h3>
-            <p className="text-sm text-gray-600 mt-1">Ask LocalBiz AI to explain your results.</p>
+            <p className="text-sm text-gray-600 mt-1">Ask Vyapar Mitra to explain your results.</p>
           </div>
           <button
             onClick={() => {
-              const chatBtn = document.querySelector('[title="Ask LocalBiz AI"]');
+              const chatBtn = document.querySelector('[title="Ask Vyapar Mitra"]');
               if (chatBtn) chatBtn.click();
             }}
             className="px-6 py-2.5 bg-blue-600 text-white rounded-lg font-medium hover:bg-blue-700 transition-colors"
